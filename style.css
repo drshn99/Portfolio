@@ -53,7 +53,17 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+.main {
+  position: relative;
+  /* overflow: hidden; */
+}
+.slide {
+  position: absolute;
+  transition: 1.5s;
+}
+.experience {
+  overflow: hidden;
+}
 .conatiner1 {
   display: flex;
   /* justify-content: space-between; */
@@ -62,11 +72,15 @@ a {
   overflow: auto;
   padding-top: 20px;
 }
+.nav {
+  padding-top: 200px;
+  /* padding-left: 250px; */
+  text-align: center;
+}
 /* .scroll {
   overflow: auto;
 } */
-.about{
- 
+.about {
 }
 
 .intoabout {
@@ -106,7 +120,7 @@ a {
 .location {
   padding-right: 10px;
 }
-img {
+.profile {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -117,8 +131,13 @@ img {
   justify-content: space-between;
   padding-top: 20px;
 }
-.role{
-padding-top: 5px;
+.qw {
+  width: 600px;
+  height: 200px;
+}
+
+.role {
+  padding-top: 5px;
 }
 .dot {
   cursor: pointer;
@@ -130,16 +149,16 @@ padding-top: 5px;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.changing{
+.changing {
   padding-bottom: 1px;
 }
-.changing2{
+.changing2 {
   padding-top: 10px;
 }
-.hidden{
+.hidden {
   visibility: hidden;
 }
-.hidden{
+.hidden {
   display: none;
 }
 .button-8 {
