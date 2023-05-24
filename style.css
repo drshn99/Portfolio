@@ -50,6 +50,8 @@ a {
   padding: 3px 3px 3px 10px;
   height: 250px;
   width: 600px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .conatiner1 {
@@ -63,6 +65,9 @@ a {
 /* .scroll {
   overflow: auto;
 } */
+.about{
+ 
+}
 
 .intoabout {
   display: flex;
